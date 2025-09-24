@@ -17,6 +17,7 @@
 2.创建后，为此 KV 添加两个条目，用于设置后台登录的 用户名 和 密码。
 - admin_username: 你的管理员用户名（例如 admin）
 - admin_password: 你的管理员密码
+`v1.01.06需要额外创建kv 名称随意`
 
 ### 创建 D1 
 1.在 Cloudflare 控制台，进入 Workers & Pages -> D1。
@@ -82,6 +83,7 @@ D1 数据库: 选择你创建的 d1
 3.在 KV 命名空间绑定 中，点击 添加绑定：
 变量名称: **NAV_AUTH**
 KV 命名空间: 选择你创建的 kv
+`v1.01.06需要额外绑定kv 变量名称:NAV_SETTINGS`
 
 ---
 
