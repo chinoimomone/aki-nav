@@ -53,7 +53,7 @@ CREATE TABLE sites (
 
 
 2. 建立分類表 (catalogs)
-````
+```
 CREATE TABLE catalogs (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name TEXT NOT NULL UNIQUE,
