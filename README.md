@@ -23,7 +23,7 @@ admin_username
 ```
 
 ```
-admin_username
+admin_password
 ```
 
 ### 创建 D1 
